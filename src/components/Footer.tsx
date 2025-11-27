@@ -5,22 +5,22 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="text-white" style={{ backgroundColor: "hsl(349, 55%, 50%)" }}>
+    <footer className="texte-white" style={{backgroundColor:"#89b9cdff"}}>
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Heart className="w-8 h-8" style={{ color: "hsl(8, 100%, 85%)" }} />
+              <Heart className="w-8 h-8" style={{ color: "#45b2e1" }} />
               <span
                 className="font-heading font-bold"
-                style={{ fontFamily: "Bird House, sans-serif", color: "hsla(0, 0%, 100%, 1.00)", fontSize: "50px" }}
+                style={{ fontFamily: "Adigiana UI, sans-serif", color: "hsla(0, 0%, 100%, 1.00)", fontSize: "50px" }}
               >
-                De Mãe para Mãe
+                Fonoaudiologia Infantil
               </span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
-              Um projeto literário que celebra as histórias mais emocionantes sobre o amor e a força de ser mãe!
+              Um projeto literário!
             </p>
             <p>
               LITERARE BOOKS INTERNATIONAL LTDA - CNPJ 10.789.508/0001-74 <br />
@@ -44,11 +44,11 @@ const Footer: React.FC = () => {
             <h3 className="font-heading font-semibold text-lg mb-4">Contato</h3>
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
-                <Mail className="w-5 h-5" style={{ color: "hsl(8, 100%, 85%)" }} />
+                <Mail className="w-5 h-5" style={{ color: "#45b2e1" }} />
                 <span className="text-gray-300">marketing@literarebooks.com.br</span>
               </li>
               <li className="flex items-center space-x-3">
-                <Phone className="w-5 h-5" style={{ color: "hsl(8, 100%, 85%)" }} />
+                <Phone className="w-5 h-5" style={{ color: "#45b2e1" }} />
                 <span className="text-gray-300">(11) 2659-0964</span>
               </li>
             </ul>
@@ -61,11 +61,7 @@ const Footer: React.FC = () => {
             <p className="text-white text-sm">
               © {currentYear} Literare Books International. Todos os direitos reservados.
             </p>
-            <p className="text-white text-sm flex items-center space-x-1">
-              <span>Feito com</span>
-              <Heart className="w-4 h-4" style={{ color: "hsla(0, 0%, 100%, 1.00)" }} />
-              <span>para todas as mamães</span>
-            </p>
+          
           </div>
         </div>
       </div>

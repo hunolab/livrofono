@@ -113,45 +113,45 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
           {/* Conteúdo */}
           <div ref={contentRef} className="order-2 lg:order-1">
-            <h2 className="font-heading font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-3 sm:mb-4 md:mb-6" style={{ color: '#ba455c' }}>
-              Uma Obra Literária
-              <span className="block" style={{ fontFamily: 'Bird House, sans-serif', color: '#ff3a60', fontSize: '50px' }}>
-                De Mãe para Mãe
+            <h2 className="font-heading font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl mb-3 sm:mb-4 md:mb-6" style={{ color: '#45b2e1' }}>
+              Uma Obra Técnica e Humana
+              <span className="block" style={{ fontFamily: 'Adigiana UI, sans-serif', color: '#f4b7b2', fontSize: '30px' }}>
+                De Fono para Quem Cuida
               </span>
             </h2>
 
             <div className="space-y-3 sm:space-y-4 text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-prose">
               <p>
-                A Literare Books tem o orgulho de apresentar seu mais novo projeto de coautoria: De Mãe para Mãe – Uma jornada atípica de resiliência, desafios e propósito, sob coordenação editorial de Gabriela Daros Castro, esposa do renomado Dr. Thiago Castro.
+                A Literare Books tem o orgulho de apresentar seu mais novo projeto de coautoria: De Profissional para Profissional – Caminhos da Fonoaudiologia na prática clínica e educacional, sob coordenação editorial de Gabriela Daros Castro, referência no desenvolvimento infantil.
               </p>
               <p>
-                Mais do que um livro, este projeto é um abraço em forma de palavras, reunindo histórias reais de mães que vivem a maternidade atípica com coragem e amor.
+                Mais do que um livro, este projeto é um convite ao diálogo entre especialistas, reunindo relatos, reflexões e experiências reais de fonoaudiólogos que atuam diariamente na construção da comunicação humana — seja em consultórios, escolas, clínicas interdisciplinares ou na supervisão de equipes.
               </p>
               <p>
-                Cada capítulo será uma troca de experiências, aprendizados e superações, de mãe para mãe, para inspirar e acolher quem enfrenta caminhos semelhantes.
+                Cada capítulo será um espaço de troca técnica e sensível, reunindo aprendizados, casos clínicos, desafios e estratégias que refletem a complexidade e a beleza do desenvolvimento da linguagem, fala e comunicação.
                 </p>
                 <p>
-                Se você é mãe de uma criança com autismo ou qualquer outra condição que desafia o cotidiano, e deseja transformar sua vivência em uma mensagem de força e esperança, esse projeto é para você.
+                Se você é fonoaudiólogo clínico ou educacional, estudante de Fonoaudiologia, profissional da saúde ou educação que atua com desenvolvimento infantil, supervisor, coordenador de clínica ou AT, ou simplesmente alguém que deseja aprofundar conhecimentos em linguagem, fala, TEA, desenvolvimento infantil e práticas baseadas em evidências, este projeto foi feito para você.
               </p>
             </div>
 
             <div className="mt-4 sm:mt-6 flex flex-wrap gap-2 sm:gap-3">
               <div className="flex items-center space-x-1 sm:space-x-2">
                 <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full" style={{ backgroundColor: '#f9cec6' }}></div>
-                <span className="text-xs sm:text-sm font-medium" style={{ color: '#a44457' }}>
-                  Amor de verdade
+                <span className="text-xs sm:text-sm font-medium" style={{ color: '#46b2e0' }}>
+                  Linguagem
                 </span>
               </div>
               <div className="flex items-center space-x-1 sm:space-x-2">
-                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full" style={{ backgroundColor: '#ba455c' }}></div>
-                <span className="text-xs sm:text-sm font-medium" style={{ color: '#a44457' }}>
-                  Maternidade sem filtros
+                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full" style={{ backgroundColor: '#f28ab0' }}></div>
+                <span className="text-xs sm:text-sm font-medium" style={{ color: '#46b2e0' }}>
+                  Comunicação
                 </span>
               </div>
               <div className="flex items-center space-x-1 sm:space-x-2">
-                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full" style={{ backgroundColor: '#ff3a60' }}></div>
-                <span className="text-xs sm:text-sm font-medium" style={{ color: '#a44457' }}>
-                  Vivências que inspiram
+                <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full" style={{ backgroundColor: '#b48bffff' }}></div>
+                <span className="text-xs sm:text-sm font-medium" style={{ color: '#46b2e0' }}>
+                  Desenvolvimento
                 </span>
               </div>
             </div>
@@ -161,7 +161,7 @@ const AboutSection = () => {
           <div ref={imageRef} className="order-1 lg:order-2 flex justify-center">
             <div className="relative sm:transform sm:rotate-3 sm:hover:rotate-0 transition-transform duration-500 shadow-md sm:shadow-lg rounded-lg sm:rounded-xl overflow-hidden max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem] lg:max-w-[20rem]">
               <img
-                src="/imgs/familiacastro.jpg"
+                src="/imgs/rita.png"
                 alt="Capa do Livro sobre Pets"
                 className="w-full h-auto object-cover rounded-lg sm:rounded-xl"
                 loading="lazy"
@@ -177,7 +177,7 @@ const AboutSection = () => {
 
         {/* Seção de Apoio */}
         <div ref={supportRef} className="mt-10 sm:mt-12 md:mt-16 text-center">
-          <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6" style={{ color: '#ba455c' }}>
+          <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6" style={{ color: '#f4c5a9' }}>
             Apoio
           </h3>
           <div className="flex justify-center">
@@ -193,6 +193,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 

@@ -5,10 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import VideoCardsSection from "@/components/VideoCardsSection";
 import AboutSection from "@/components/AboutSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import LeadCaptureForm from "@/components/LeadCaptureForm";
 import Footer from "@/components/Footer";
-import CarouselSection from "@/components/CarouselSection";
 import ProcessoEditorial from "@/components/processoeditorial";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -30,15 +27,12 @@ const Index = () => {
         <BenefitsSection />
         <ProcessoEditorial />
         <VideoCardsSection />
-        <TestimonialsSection />
-        <CarouselSection />
-        <LeadCaptureForm />
         <Footer />
       </main>
     );
   } catch (error) {
     console.error("Erro na renderização:", error);
-    return <div>Erro ao carregar a página. Verifique o console para mais detalhes.</div>;
+    return <div>Erro ao carregar a página.</div>;
   }
 };
 

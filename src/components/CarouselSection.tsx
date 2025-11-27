@@ -96,7 +96,7 @@ const TweetDemo: React.FC = () => {
       ref={sectionRef}
       className="relative py-8 md:py-12 bg-gradient-to-b from-gray-50 to-white overflow-hidden"
     >
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-center mb-6 md:mb-8" style={{ color: '#ff3a60' }}>
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-center mb-6 md:mb-8" style={{ color: '#45b2e1' }}>
         Explore Nossos Títulos
       </h2>
       <div className="absolute top-0 left-0 w-8 md:w-16 h-full z-10 pointer-events-none bg-gradient-to-r from-gray-50 to-transparent"></div>

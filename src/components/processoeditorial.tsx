@@ -43,13 +43,13 @@ const ProcessoEditorial: React.FC = () => {
           {steps.map((step, index) => (
             <div
               key={step.title}
-              className="bg-white p-4 md:p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-[#ba455c]/30"
+              className="bg-white p-4 md:p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-[#f5b8b3]/30"
             >
               <div className="flex flex-col">
-                <h3 className="text-lg md:text-xl font-semibold text-[#ff3a60] mb-2">
+                <h3 className="text-lg md:text-xl font-semibold text-[#91c8df] mb-2">
                   {index + 1}. {step.title}
                 </h3>
-                <p className="text-sm md:text-base text-[#ba455c] leading-relaxed">
+                <p className="text-sm md:text-base text-[#7c7c82] leading-relaxed">
                   {step.description}
                 </p>
               </div>

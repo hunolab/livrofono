@@ -6,24 +6,24 @@ gsap.registerPlugin(ScrollTrigger);
 
 const videoCards = [
   {
-    title: "Desafios e Superações",
-    description: "Compartilhe momentos difíceis e como você encontrou força e soluções para enfrentar cada desafio da maternidade.",
-    imageSrc: "/imgs/amor.png"
-  },
-  {
-    title: "Momentos de Alegria",
-    description: "Eternize os momentos mais divertidos, emocionantes e memoráveis ao lado dos seus filhos.",
+    title: "Cuidado",
+    description: "O cuidado está no acolhimento, na escuta e na condução terapêutica que respeita o ritmo de cada criança, valorizando suas singularidades e necessidades.",
     imageSrc: "/imgs/cuidado.png"
   },
   {
-    title: "Aprendizados de Vida",
-    description: "Mostre como a maternidade ensina sobre paciência, amor incondicional, resiliência e crescimento pessoal.",
-    imageSrc: "/imgs/dedicação.png"
+    title: "Desenvolvimento",
+    description: "O desenvolvimento infantil ganha força quando linguagem, fala e interação avançam juntas, guiadas por intervenções fonoaudiológicas eficazes.",
+    imageSrc: "/imgs/desenvolvimento.png"
   },
   {
-    title: "Conexões e Laços",
-    description: "Conte sobre os vínculos especiais com seus filhos, familiares e comunidade, e como eles transformam sua experiência como mãe.",
-    imageSrc: "/imgs/protecao.png"
+    title: "Ciência",
+    description: "O cuidado está no acolhimento, na escuta e na condução terapêutica que respeita o ritmo de cada criança, valorizando suas singularidades e necessidades.",
+    imageSrc: "/imgs/ciencia.png"
+  },
+  {
+    title: "Comunicação",
+    description: "É pela comunicação que a criança se expressa, cria vínculos e descobre o mundo, a fonoaudiologia fortalece esse caminho, ajudando cada voz a encontrar seu próprio espaço.",
+    imageSrc: "/imgs/comunicacao.png"
   }
 ];
 
@@ -96,7 +96,7 @@ const CombinedSections: React.FC = () => {
             <div className="w-full md:w-5/12 mb-6 md:mb-0 px-4">
               <div className="relative w-full rounded-lg shadow-lg overflow-hidden">
                 <img
-                  src="/imgs/congresso.png"
+                  src="/imgs/ritacordeiro.jpg"
                   alt="Histórias de pets"
                   loading="lazy"
                   className="w-full h-auto object-contain max-w-full"
@@ -113,11 +113,11 @@ const CombinedSections: React.FC = () => {
                 >
                   <i className="fas fa-rocket text-lg"></i>
                 </div>
-                <h3 className="text-2xl md:text-3xl font-semibold" style={{ color: "hsl(349, 55%, 50%)" }}>
+                <h3 className="text-2xl md:text-3xl font-semibold" style={{ color: "#46b2e0" }}>
                   Histórias que Conectam
                 </h3>
                 <p className="mt-4 text-base md:text-lg leading-relaxed text-gray-500">
-                  Transforme suas experiências como mãe em uma obra literária inspiradora, mostrando sua dedicação, amor e desafios do dia a dia da maternidade.
+                  Transforme suas experiências como fonoaudiólogo(a) em uma obra inspiradora, revelando sua dedicação, desafios clínicos, vitórias terapêuticas e o impacto do seu trabalho na comunicação e na qualidade de vida das pessoas.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -129,11 +129,11 @@ const CombinedSections: React.FC = () => {
                         <i className="fas fa-fingerprint"></i>
                       </span>
                       <div>
-                        <h4 className="text-base font-semibold" style={{ color: "hsl(349, 55%, 50%)" }}>
+                        <h4 className="text-base font-semibold" style={{ color: "#46b2e0" }}>
                           Autoridade e Inspiração
                         </h4>
                         <p className="text-sm md:text-base text-gray-500">
-                          Mostre que sua vivência pode inspirar outras mães. Sua história real se torna referência e exemplo de força, resiliência e amor incondicional.
+                          Mostre que sua prática real pode inspirar outros profissionais. Sua história torna-se referência de cuidado, técnica, humanidade e resiliência na atuação fonoaudiológica.
                         </p>
                       </div>
                     </div>
@@ -142,16 +142,16 @@ const CombinedSections: React.FC = () => {
                     <div className="flex items-center">
                       <span
                         className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full mr-3"
-                        style={{ backgroundColor: "#eaf3f4", color: "#87a8b1" }}
+                        style={{ backgroundColor: "#91c8df", color: "#46b2e0" }}
                       >
                         <i className="fab fa-html5"></i>
                       </span>
                       <div>
-                        <h4 className="text-base font-semibold" style={{ color: "hsl(349, 55%, 50%)" }}>
-                          Conexão com Outras Mães
+                        <h4 className="text-base font-semibold" style={{ color: "#46b2e0" }}>
+                          Conexão com Outros Profissionais
                         </h4>
                         <p className="text-sm md:text-base text-gray-500">
-                          Compartilhe sua jornada e crie vínculos com mulheres que vivem experiências semelhantes, fortalecendo uma rede de apoio e empatia.
+                          Compartilhe sua jornada e fortaleça vínculos com fonoaudiólogos que vivenciam desafios semelhantes, ampliando uma rede de troca, apoio e crescimento coletivo.
                         </p>
                       </div>
                     </div>
@@ -160,16 +160,16 @@ const CombinedSections: React.FC = () => {
                     <div className="flex items-center">
                       <span
                         className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full mr-3"
-                        style={{ backgroundColor: "#eaf3f4", color: "#87a8b1" }}
+                        style={{ backgroundColor: "#eaf3f4", color: "#46b2e0" }}
                       >
                         <i className="far fa-paper-plane"></i>
                       </span>
                       <div>
-                        <h4 className="text-base font-semibold" style={{ color: "hsl(349, 55%, 50%)" }}>
-                          Legado Pessoal e Familiar
+                        <h4 className="text-base font-semibold" style={{ color: "#46b2e0" }}>
+                          Legado Profissional e Acadêmico
                         </h4>
                         <p className="text-sm md:text-base text-gray-500">
-                          Deixe registrada sua trajetória materna em um livro que eterniza suas memórias, aprendizados e amor, criando um legado para suas filhas e futuras gerações.
+                          Registre sua trajetória em um livro que eterniza seus aprendizados, casos marcantes e contribuições para a área, criando um legado para colegas, estudantes e futuras gerações de fonoaudiólogos.
                         </p>
                       </div>
                     </div>
@@ -185,11 +185,11 @@ const CombinedSections: React.FC = () => {
       <section ref={sectionRef} className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 md:mb-12">
-            <h2 className="font-heading font-bold text-2xl md:text-4xl mb-4" style={{ color: "hsl(349, 55%, 50%)" }}>
+            <h2 className="font-heading font-bold text-2xl md:text-4xl mb-4" style={{ color: "#46b2e0" }}>
               Temas para sua História
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-              Explore diferentes formas de contar sua experiência única na maternidade.
+              Explore diferentes formas de contar sua experiência única na fonoaudiologia.
             </p>
           </div>
 
@@ -212,7 +212,7 @@ const CombinedSections: React.FC = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="p-4 md:p-6">
-                  <h3 className="font-heading font-semibold text-lg md:text-xl mb-2" style={{ color: "hsl(349, 100%, 61%)" }}>
+                  <h3 className="font-heading font-semibold text-lg md:text-xl mb-2" style={{ color: "#46b2e0" }}>
                     {card.title}
                   </h3>
                   <p className="text-muted-foreground text-sm md:text-base leading-relaxed">
@@ -224,6 +224,18 @@ const CombinedSections: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Botão WhatsApp */}
+<section className="py-6 bg-gray-50 text-center">
+  <a
+    href="https://wa.me/5511950184848?text=Oi%2C%20fiquei%20interessado%20em%20ser%20coautor(a)"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-colors duration-300"
+  >
+    Entrar em contato pelo WhatsApp
+  </a>
+</section>
 
       {/* Footer */}
       <footer className="py-6 bg-gray-50">

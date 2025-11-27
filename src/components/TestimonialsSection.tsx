@@ -70,7 +70,7 @@ const TestimonialsSection = () => {
     <section ref={sectionRef} className="py-12 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="font-heading font-bold text-2xl md:text-4xl mb-4" style={{ color: '#ff3a60' }}>
+          <h2 className="font-heading font-bold text-2xl md:text-4xl mb-4" style={{ color: '#45b2e1ff' }}>
             O que dizem sobre o Projeto
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">

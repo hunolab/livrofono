@@ -66,7 +66,7 @@ const HeroSection = () => {
       {/* Imagem de fundo */}
       <div className="absolute inset-0 w-full h-full z-0">
         <img
-          src="/imgs/banner.png"
+          src="/imgs/bannerfono.png"
           alt="Imagem de fundo"
           className="w-full h-full object-cover"
         />
@@ -89,7 +89,7 @@ const HeroSection = () => {
           variant="hero"
           size="lg"
           className="w-[90vw] sm:w-auto px-6 py-3 text-sm sm:text-base md:text-lg"
-          style={{ backgroundColor: '#ff3a60' }}
+          style={{ backgroundColor: '#1d83c2' }}
         >
           Quero ser Coautora
         </Button>
