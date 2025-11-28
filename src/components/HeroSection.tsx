@@ -82,19 +82,25 @@ const HeroSection = () => {
       </div>
 
       {/* Botão na parte inferior */}
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-30 pb-4 sm:pb-6">
-        <Button
-          ref={buttonRef}
-          onClick={scrollToForm}
-          variant="hero"
-          size="lg"
-          className="w-[90vw] sm:w-auto px-6 py-3 text-sm sm:text-base md:text-lg"
-          style={{ backgroundColor: '#1d83c2' }}
-        >
-          Quero ser Coautora
-        </Button>
-      </div>
-    </section>
+<div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 z-30 pb-4 sm:pb-6">
+  <Button
+    ref={buttonRef}
+    onClick={() =>
+      window.open(
+        "https://wa.me/5511950184848?text=Oi%2C%20fiquei%20interessado%20em%20ser%20coautor(a)",
+        "_blank"
+      )
+    }
+    variant="hero"
+    size="lg"
+    className="w-[90vw] sm:w-auto px-6 py-3 text-sm sm:text-base md:text-lg"
+    style={{ backgroundColor: '#1d83c2' }}
+  >
+    Quero ser Coautora
+  </Button>
+</div>
+</section>
+
   );
 };
 
