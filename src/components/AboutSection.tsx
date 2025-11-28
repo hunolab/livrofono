@@ -122,7 +122,7 @@ const AboutSection = () => {
 
             <div className="space-y-3 sm:space-y-4 text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-prose">
               <p>
-                A Literare Books tem o orgulho de apresentar seu mais novo projeto de coautoria: De Profissional para Profissional – Caminhos da Fonoaudiologia na prática clínica e educacional, sob coordenação editorial de Gabriela Daros Castro, referência no desenvolvimento infantil.
+                A Literare Books tem o orgulho de apresentar seu mais novo projeto de coautoria: De Profissional para Profissional – Caminhos da Fonoaudiologia na prática clínica e educacional, sob coordenação editorial de Rita Cordeiro, referência no desenvolvimento infantil.
               </p>
               <p>
                 Mais do que um livro, este projeto é um convite ao diálogo entre especialistas, reunindo relatos, reflexões e experiências reais de fonoaudiólogos que atuam diariamente na construção da comunicação humana — seja em consultórios, escolas, clínicas interdisciplinares ou na supervisão de equipes.
